@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>یک سوال</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #111;
+        font-family: Tahoma, Arial, sans-serif;
+        direction: rtl;
+        color: white;
+    }
+
+    .box {
+        width: 90%;
+        max-width: 420px;
+        background: #1d1d1d;
+        padding: 30px;
+        border-radius: 22px;
+        text-align: center;
+        box-shadow: 0 0 30px rgba(255,255,255,0.08);
+    }
+
+    h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    p {
+        color: #ddd;
+        font-size: 17px;
+    }
+
+    textarea {
+        width: 100%;
+        height: 130px;
+        margin-top: 15px;
+        padding: 14px;
+        border: none;
+        outline: none;
+        border-radius: 14px;
+        resize: none;
+        font-size: 16px;
+        font-family: Tahoma, Arial, sans-serif;
+        direction: rtl;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 15px;
+        padding: 14px;
+        border: none;
+        border-radius: 14px;
+        background: #555;
+        color: white;
+        font-size: 17px;
+        cursor: pointer;
+    }
+
+    button:active {
+        transform: scale(0.98);
+    }
+</style>
+</head>
+
+<body>
+
+<div class="box">
+
+    <h2>یه سوال ازت دارم...</h2>
+
+    <p>چرا منو از بلاکی درآوردی؟ 🤍</p>
+
+    <form
+        action="https://formsubmit.co/c0da21594e9ba79bf6a510097996063d"
+        method="POST">
+
+        <textarea
+            name="answer"
+            placeholder="جوابت رو اینجا بنویس..."
+            required></textarea>
+
+        <input
+            type="hidden"
+            name="_subject"
+            value="جواب سوال">
+
+        <input
+            type="hidden"
+            name="_captcha"
+            value="false">
+
+        <button type="submit">
+            ثبت جواب
+        </button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
